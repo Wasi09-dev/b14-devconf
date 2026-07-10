@@ -24,6 +24,7 @@ a {
   padding: 5px 8px;
   margin: 5px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 header {
@@ -51,6 +52,7 @@ header {
   margin-left: 40%;
   padding: 10px 8px;
   width: 25%;
+  cursor: pointer;
 }
 section h1 {
   text-align: center;
@@ -134,6 +136,7 @@ section h1 {
    border-color: #2563eb;
    border-radius: 4px;
    color: #2563eb;
+   cursor: pointer;
 }
 .botam-pro{
     display: block;
@@ -145,6 +148,7 @@ section h1 {
     color: #FFFFFF;
     border-radius: #2563eb;
     border-radius: 5px;
+    cursor: pointer;
 }
 .botam-team{
     display: block;
@@ -155,6 +159,7 @@ section h1 {
     color: #0D1B2A;
     border-color:  #0D1B2A;
     border-radius: 5px;
+    cursor: pointer;
 }
 .newsletter-signup{
     display: flex;
