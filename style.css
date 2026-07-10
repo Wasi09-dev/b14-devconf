@@ -163,3 +163,26 @@ section h1 {
     max-width: 600px;
     margin: 20px auto;
 }
+footer{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+}
+footer h3{
+    margin-right:  14px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: auto;
+}
+.social-icon{
+    display: flex;
+    justify-content: end;
+    margin-right: 14px;
+}
+footer h2{
+    margin: 14px;
+    padding: 10px;
+}
+.last-part{
+    display: flex;
+    justify-content: flex-start;
+}
