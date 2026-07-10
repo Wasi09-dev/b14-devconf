@@ -51,10 +51,31 @@ header{
     color: #FFFFFF;
     border-radius: 15px;
     margin-left: 40%;
-padding: 5px 8px;
+padding: 10px 8px;
 width: 25%;
 }
 section h1{
     text-align: center;
     margin: 10px;
+    font-weight: bold;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px
+}
+.speaker-card img{
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+.category{
+    margin-top: 5px;
+    color: #2563EB;
+}
+.title{
+    text-align: center;
 }
