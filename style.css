@@ -1,81 +1,165 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    padding: 16px 8%;
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 16px 8%;
 }
-ul{
-    list-style: none;
-    display: flex;
-    gap: 10px;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
 }
 a {
-    text-decoration: none;
-    color: #575757;
-    
+  text-decoration: none;
+  color: #575757;
 }
-.common-btn{
-    background-color: #1D4ED8;
-    border-radius: 12px;
-    padding: 5px 8px;
-    margin: 5px;
-    color: #FFFFFF;
+.common-btn {
+  background-color: #1d4ed8;
+  border-radius: 12px;
+  padding: 5px 8px;
+  margin: 5px;
+  color: #ffffff;
 }
 
-header{
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 42%, rgba(0,0,0,0.88) 87%),url('./images/banner.jpg');
-    height: 90vh;
-    background-repeat: no repeat;
-    background-size: cover;
-    background-position: center;
-    display: grid;
+header {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 42%, rgba(0, 0, 0, 0.88) 87%),
+    url("./images/banner.jpg");
+  height: 90vh;
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  text-align: center;
+  color: #ffffff;
+  display: grid;
+  gap: 10px;
+}
+.header-content button {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-radius: 15px;
+  margin-left: 40%;
+  padding: 10px 8px;
+  width: 25%;
+}
+section h1 {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+.speaker-card img {
+  width: 600px;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+.category {
+  margin-top: 5px;
+  color: #2563eb;
+}
+.title {
+  text-align: center;
+}
+.pricing-container{
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.header-content{
-    text-align: center;
-    color: #FFFFFF;
-    display: grid;
-    gap: 10px;
-     
-}
-.header-content button{
-    background-color: #1D4ED8;
-    color: #FFFFFF;
-    border-radius: 15px;
-    margin-left: 40%;
-padding: 10px 8px;
-width: 25%;
-}
-section h1{
-    text-align: center;
-    margin: 10px;
-    font-weight: bold;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 30px
+    padding: 30px 20px;
 }
-.speaker-card img{
-    width: 600px;
-    height: 350px;
-    object-fit: cover;
+.price-card{
+    background-color: #FFFFFF;
+    border: 1px solid #888888;
+    width: 350px;
+    height: 430px;
+    padding: 30px;
+    border-radius: 13px;
+}
+.plan-name{
+    color: #888888;
+    padding: 10px;
+}
+.price{
+    font-size: bold;
+    padding: 10px;
+    margin-left: 0;
+    text-align: left;
+}
+.note{
+    color: #888888;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.features{
+    
+    padding: 0;
+    margin: 20px 0;
+}
+.features li{
+    padding: 8px 0;
+}
+.price-card-special{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    padding: 30px;
+    list-style: #FFFFFF;
+    border: 1px solid #0D1B2A;
+    border-radius: 13px;
+    width: 350px;
+    height: 450px;
+}
+.botam-normal{
     display: block;
-}
-.category{
-    margin-top: 5px;
-    color: #2563EB;
-}
-.title{
+    margin: auto;
     text-align: center;
+    width: 100%;
+    padding: 14px;
+   border-color: #2563eb;
+   border-radius: 4px;
+   color: #2563eb;
+}
+.botam-pro{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb;
+    color: #FFFFFF;
+    border-radius: #2563eb;
+    border-radius: 5px;
+}
+.botam-team{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 14px;
+    color: #0D1B2A;
+    border-color:  #0D1B2A;
+    border-radius: 5px;
+}
+.newsletter-signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
 }
